@@ -1,0 +1,52 @@
+:root {
+    --main-purple : #7e4e84;
+    --darker-main-purple : #342238;
+    --main-purple2 : #c7b3f2;
+    --blue : #4C00B0;
+    --purple : #7600BC;
+    --light-purple : #BE2ED6;
+    --lighter-purple : #CA4CDD;
+    --more-ligher-purple : #DA8EE7;
+    --white-purple : #E8BCF0;
+    --red : #e54d4d;
+    --white : white;
+    --black : black;
+}
+
+/*============Navbutton============*/
+.card {
+    transition: transform 0.5s, box-shadow 0.5s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .card:hover {
+    transform: scale(1.05) translateY(-10px);
+    box-shadow: 0 20px 30px var(--main-purple2); 
+    border: 1px solid var(--main-purple2);
+  }
+  
+  .card-body i {
+    transition: color 0.5s;
+    color: #000; 
+  }
+  
+  .card-body h2,h6 {
+    transition: color 0.5s;
+    color: #000; 
+  }
+  
+  /* .card-body span {
+    color: var(--purple); 
+  } */
+  
+  .card:hover .card-body i {
+    color: var(--main-purple2); 
+  }
+  
+  .card:hover .card-body h2 {
+    color: var(--main-purple2); 
+  }
+  
+  .card .card-body h6 {
+    color: var(--main-purple2); 
+  }
